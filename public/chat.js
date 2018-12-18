@@ -1,5 +1,5 @@
 //Socket setup on front-end
-const socket = io.connect("http://localhost:4000");  //We have io object because it is linked in index.html
+const socket = io.connect();  // We have io object because it is linked in index.html
 
 // Varialbes
 var user = '';
