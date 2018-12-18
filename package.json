@@ -1,0 +1,18 @@
+{
+  "name": "liaoliaotian",
+  "version": "0.0.0",
+  "description": "Follow tutorial by \"The Net Ninjia\". No modification. 50 mins (in 5 videos) https://www.youtube.com/watch?v=vQjiN8Qgs3c&list=PL4cUxeGkcC9i4V-_ZVwLmOusj8YAUhj_9",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brooklyn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

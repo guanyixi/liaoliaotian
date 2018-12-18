@@ -1,0 +1,182 @@
+/* orange: #F15A29 */
+/* yellow: #F7941E */
+/* green: #39B54A */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Lato', sans-serif;
+    font-size:15px;
+    background-color:#eee;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type="text"],
+textarea{
+    border:1px solid #ccc;
+    border-radius:5px;
+    display:block;
+    width:100%;
+    margin:10px 0;
+}
+
+input[type="text"]{
+    padding:15px 10px;
+}
+
+input[type="text"]:focus{
+    box-shadow:0 0 10px #ccc;
+}
+
+textarea{
+    padding:10px;
+    font-size:1em;
+}
+
+input[type="text"]:focus,
+textarea:focus{
+    outline:0;
+}
+
+button{
+    display:block;
+    width:100%;
+    padding:15px 20px;
+    border-radius:5px;
+    border:0;
+    background-color:#F15A29;
+    color:white;
+    text-align:center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size:1.4em;
+}
+
+.liaoliaotian{
+    width:100%;
+    height:100vh;
+    overflow-y:auto;
+}
+
+#login-window{
+    max-width:400px;
+    padding:20px;
+    margin: 10vh auto 0;
+    text-align:center;
+}
+#login-window.not-active{
+    display:none;
+}
+
+#login-window .logo img{
+    width:220px;
+    height:auto;
+}
+
+#name, #code{
+    text-align:center;
+    font-size:1.4em;
+}
+
+/* Chat window */
+#header .logo,
+#header .online-users-container,
+#header #online-users{
+    display:inline-block;
+    vertical-align: bottom;
+}
+
+#header{
+    position:relative;
+}
+
+#header .logo img{
+    width:160px;
+    height:auto;
+}
+
+#header .online-users-container{
+    position:absolute;
+    right:0;
+    bottom:10px;
+    font-size:0.8em;
+}
+
+#header #online-users{
+    margin:0;
+    padding:0;
+}
+
+#header #online-users li{
+    list-style: none;
+    color:#999;
+    display: inline-block;
+    padding: 0 3px;
+}
+
+#chat-window{
+    display:none;
+    max-width:100%;
+    padding:0 10px;
+    width:500px;
+    height: 90vh;
+    margin:5vh auto;
+}
+#chat-window.active{
+    display:block;
+}
+
+#output{
+    border:1px solid #ccc;
+    height: calc(90vh - 115px);
+    border-radius:5px;
+    overflow-y:auto;
+    padding: 10px;
+    min-height:150px;
+    max-height:500px;
+    overflow-y:auto;
+    background-color:white;
+}
+
+.message-title span{
+    color:#999;
+    padding-left:10px;
+    font-size:0.9em;
+}
+
+.message-content{
+    padding:5px 0 10px;
+    font-size:0.9em;
+}
+
+
+
+/* Test mode - for easier chat function tests */
+.test-mode #test-name{
+    position:fixed;
+    top:0;
+    left:10px;
+    display:inline-block;
+    width:100px;
+}
+
+.test-mode #login-window{
+    display:none;
+}
+
+.test-mode #chat-window{
+    display:block !important;
+}
+ 
+    
+
+
+
