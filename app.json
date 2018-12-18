@@ -1,0 +1,6 @@
+{
+    "name": "LiaoLiaoTian",
+    "description": "A simple chat room app",
+    "repository": "https://github.com/guanyixi/liaoliaotian.git",
+    "keywords": ["node", "express", "socket.io"]
+}
