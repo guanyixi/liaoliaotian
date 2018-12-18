@@ -1,3 +1,6 @@
+https://liaoliaotian.herokuapp.com/
+secret code: flip
+
 version: 1.0.0
 
 Goals:
